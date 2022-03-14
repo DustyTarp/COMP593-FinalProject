@@ -6,6 +6,11 @@ __pycache__/
 # C extensions
 *.so
 
+#VS Code Files
+*.code-workspace
+.vscode
+
+
 # Distribution / packaging
 .Python
 build/
