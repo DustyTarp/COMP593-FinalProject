@@ -1,0 +1,25 @@
+Work Log
+
+Apr 20, 2022
+Created function to create the database called apod_images, table images and tested it independtly
+Created function to populate the database apod_images, table images with the data from variables in respective columns
+Created print statements that print as function is executed
+Created function to check if image is in the database based off of sha256 hash
+Created print statements to tell progress and outcome of database check
+Inserted the script for the function to set the background including comments
+Completed print apod info function with print statements outlining all the specified details
+Completed get apod info function that uses a get request to get the response from the api and convert it to a dictionary
+
+Apr 21 2022
+Used script from poke image viewer to split into two parts for downloading and saving the image. First returns the image url response and second saves the image to disk in the specified path
+Added image_url variable from the json response
+Testing different hashing scripts to try and get the image hash
+Fixed the hashing issue and got the hash of the image
+Added file size calculator to find size of the file
+Created image path function using a regex to get the photo name
+Created an if statement and problem solved through testing to get photo to save properly
+Had no idea how to have more than one command line argument in VS code so tested through PowerShell 
+Double checked logic and tested multiple times referencing the database
+Added date of the photo plus date of addition to the database
+Added more print statements to the script to provide more information on what in happening as it does
+It works, this was a cool project, I spent way to long almost three hours trying to figure out hashing. Thanks Jeremy I enjoyed this.
